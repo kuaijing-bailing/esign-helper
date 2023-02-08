@@ -1,5 +1,5 @@
 {
-  "name": "bailing/hyperf-esign",
+  "name": "bailing/esign-helper",
   "type": "library",
   "license": "MIT",
   "description": "e签宝官方扩展包，phpSDK",
