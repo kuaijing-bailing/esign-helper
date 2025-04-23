@@ -27,7 +27,7 @@ class HttpCfgHelper
     public static $readTimeout = 80; //80 second
 
     //常规请求类
-    public static function sendHttp($reqType = 'GET', $url, $headers = [], $param = null)
+    public static function sendHttp($reqType, $url, $headers = [], $param = null)
     {
         $logData = [
             'url' => $url,
