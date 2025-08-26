@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Endness\Factory\request;
 
 use Endness\Helper\HttpHelper;
-use Hyperf\Utils\Codec\Json;
+use Hyperf\Codec\Json;
 use ReflectionClass;
 
 /**
