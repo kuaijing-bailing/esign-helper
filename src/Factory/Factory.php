@@ -31,6 +31,9 @@ class Factory
 
     // 项目密钥(应用密钥）
     private static $project_scert;
+	
+	// 专有云ID
+    private static $dedicatedCloudId;
 
     private static $debug = false;
 
