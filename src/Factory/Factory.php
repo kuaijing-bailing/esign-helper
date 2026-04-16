@@ -47,7 +47,7 @@ class Factory
      * @param $project_id
      * @param $project_scert
      */
-    public static function init($host, $project_id, $project_scert, $dedicatedCloudId)
+    public static function init($host, $project_id, $project_scert, $dedicatedCloudId = '')
     {
         self::$host = $host;
         self::$project_id = $project_id;
